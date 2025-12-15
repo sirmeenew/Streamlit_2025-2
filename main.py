@@ -7,9 +7,8 @@ st.set_page_config(
 )
 
 st.sidebar.title('K-pop Demon Hunters 분석')
-
-with st.echo():
-  import pandas as pd
+st.image("./data/WordCloud.png",use_container)width=True)
+ as pd
   from itertools import combinations
   from collections import Counter
   import matplotlib.pyplot as plt
@@ -65,9 +64,4 @@ import matplotlib.pyplot as plt
 wordsdes = WordCloud().generate(descriptions_cleaned)
 print(wordsdes.words_)
 
-wordshead = WordCloud().generate(headline_cleaned)
-print(wordshead.words_)
-
-plt.imshow(wordsdes)
-
-
+wordshead = WordCloud().generat
