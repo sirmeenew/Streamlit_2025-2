@@ -1,2 +1,9 @@
 matplotlib
 plotly
+pandas
+itertools
+collections
+networks
+koreanize_matplotlib
+re
+konlpy.tag
