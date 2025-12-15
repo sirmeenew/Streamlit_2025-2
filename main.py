@@ -7,6 +7,7 @@ st.set_page_config(
 )
 
 st.sidebar.title('K-pop Demon Hunters 분석')
-st.image("./data/WordCloud.png",use_container_width=True)
+st.image("./WordCloud.png",use_container_width=True)
+
 
 
