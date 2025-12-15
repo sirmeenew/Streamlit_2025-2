@@ -10,12 +10,12 @@ st.sidebar.title('K-pop Demon Hunters 분석')
 
 with st.echo():
   import pandas as pd
-from itertools import combinations
-from collections import Counter
-import matplotlib.pyplot as plt
-import koreanize_matplotlib
-import re
-from konlpy.tag import Okt
+  from itertools import combinations
+  from collections import Counter
+  import matplotlib.pyplot as plt
+  import koreanize_matplotlib
+  import re
+  from konlpy.tag import Okt
 
 df = pd.read_csv('./kdh_newsdata.csv')
 
@@ -69,4 +69,5 @@ wordshead = WordCloud().generate(headline_cleaned)
 print(wordshead.words_)
 
 plt.imshow(wordsdes)
+
 
