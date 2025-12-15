@@ -7,3 +7,4 @@ networks
 koreanize_matplotlib
 re
 konlpy.tag
+matplotlib.pyplot
