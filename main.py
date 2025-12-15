@@ -1,3 +1,9 @@
 import streamlit as st
 
-st.title('첫번째 어플')
+st.set_page_config(
+  page_title="B935275_유민서",
+  layout="wide",
+  initial_sidebar_state = "expanded"
+)
+
+st.sidebar.title('K-pop Demon Hunters 분석')
