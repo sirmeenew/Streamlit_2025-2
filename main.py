@@ -12,7 +12,6 @@ with st.echo():
   import pandas as pd
 from itertools import combinations
 from collections import Counter
-import networkx as nx
 import matplotlib.pyplot as plt
 import koreanize_matplotlib
 import re
@@ -70,3 +69,4 @@ wordshead = WordCloud().generate(headline_cleaned)
 print(wordshead.words_)
 
 plt.imshow(wordsdes)
+
